@@ -1,0 +1,4 @@
+cudock
+kernel.cu.o
+parse.cpp.o
+test.cpp.o
