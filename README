@@ -7,5 +7,5 @@ To compile, edit the Makefile and run 'make'. You should have CUDA installed pro
 Successful compilation will result in an excutable "cudock".
 
 To start the program, key in
-' ./cudock <population> <iteration> <dpf>'
-where <population> is used to set the population size for GA, <iteration> is used to set the number of iterations for GA. <dpf> is used to specify the parameter files in use. Note the at this stage, the population size and number of iteratiions in dpf files are override by this argument passing for the seek of simplicity in testing.
+' ./cudock <deme> <iteration> <dpf>'
+where <deme> is used to set the number of demes (now each deme has 128 individuals) to construct the whole population for GA, <iteration> is used to set the number of iterations for GA. <dpf> is used to specify the parameter files in use. Note the at this stage, the population size and number of iteratiions in dpf files are override by this argument passing for the seek of simplicity in testing.
