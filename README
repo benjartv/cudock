@@ -1,0 +1,11 @@
+cuDock 0.1
+
+This is a program to perform molecular docking with CUDA acceleration. In order to use this program, the Autodock4 package is needed (particularly, the autogrid program) to produce grid maps, which is used for scoring in this project. The program also needs the parameter files (.dpf) from Autodock4 to start.
+
+To compile, edit the Makefile and run 'make'. You should have CUDA installed properly to complie and use this program.
+
+Successful compilation will result in an excutable "cudock".
+
+To start the program, key in
+' ./cudock <population> <iteration> <dpf>'
+where <population> is used to set the population size for GA, <iteration> is used to set the number of iterations for GA. <dpf> is used to specify the parameter files in use. Note the at this stage, the population size and number of iteratiions in dpf files are override by this argument passing for the seek of simplicity in testing.
