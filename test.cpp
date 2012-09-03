@@ -9,6 +9,7 @@
 #include "molecule.h"
 #include "energy_ruler.h"
 #include <sys/types.h>
+#include <unistd.h>
 
 using std::vector;
 

@@ -1,3 +1,5 @@
+#undef _GLIBCXX_ATOMIC_BUILTINS 
+#undef _GLIBCXX_USE_INT128 
 #include "texArrayHandle.h"
 #include "kernel.h"
 #include "molecule.h"

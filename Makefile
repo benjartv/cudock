@@ -7,8 +7,8 @@ CC  := gcc
 NVCC:= nvcc
 LINK:= g++ -fPIC
 
-LIB_CUDA:= -L/usr/local/cuda/lib64 -lcudart
-INC_CUDA:= -I/usr/local/cuda/include
+LIB_CUDA:= -L/opt/cuda-toolkit/lib64 -lcudart
+INC_CUDA:= -I/opt/cuda-toolkit/include
 
 NVCCFLAGS = -arch sm_20 --ptxas-options=-v
 CCFLAGS = 
